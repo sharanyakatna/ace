@@ -8,7 +8,7 @@ A continual learning framework that uses model confidence as an internal control
 
 **55% relative reduction** in catastrophic forgetting compared to naive fine-tuning on CIFAR-10/100 class-incremental benchmarks, with simultaneous accuracy improvement.
 
-## Results on CIFAR-10/100
+## Results on CIFAR-10100
 
 | Method | Avg Accuracy | Forgetting | Std Dev |
 |--------|-------------|------------|---------|
