@@ -34,6 +34,8 @@ This creates a dynamic, per-layer stability-plasticity balance that responds to 
 - Works with standard ResNet encoders
 - Single hyperparameter (confidence threshold)
 
+Note: Earlier report and submission documents used a preliminary evaluation format with normalized metric reporting. The current repository reflects the finalized implementation and updated evaluation pipeline used for later experiments and demonstrations.
+
 ## Setup
 
 ```bash
