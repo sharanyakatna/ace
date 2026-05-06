@@ -22,7 +22,7 @@ A continual learning framework that uses model confidence as an internal control
 ACE monitors the model's prediction confidence on incoming data:
 
 - **High confidence ** → freeze lower encoder layers (preserve learned representations)  
-- **Low confidence ** → uunfreeze layers to allow adaptation
+- **Low confidence ** → unfreeze layers to allow adaptation
 
 This creates a dynamic, per-layer stability-plasticity balance that responds to what the model is actually experiencing without requiring replay buffers or external memory.
 
